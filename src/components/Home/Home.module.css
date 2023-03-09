@@ -1,0 +1,15 @@
+section  {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+    section  {
+        width: 90%;
+    }
+}

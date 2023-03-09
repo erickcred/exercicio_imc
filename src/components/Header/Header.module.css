@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(73, 73, 73);
+    padding: 16px 0;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerList {
+    display: flex;
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+}
+
+.listLink {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.listLink:hover {
+    color: #a79f75
+}

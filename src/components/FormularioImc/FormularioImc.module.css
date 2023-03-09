@@ -1,0 +1,65 @@
+form {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+}
+
+.input {
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 16px;
+    width: 210px;
+}
+
+.resultadoImc {
+    background-color: rgb(37, 105, 37);
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+    width: 220px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tableTitle {
+    background-color: rgb(73, 73, 73);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 20px 0 12px;
+}
+
+thead {
+    background-color: rgb(150, 148, 123);
+}
+thead tr th {
+    padding: 10px 0;
+}
+
+tbody tr td {
+    padding: 8px;
+    margin: 4px 0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(106, 112, 112, 0.418);
+}
+
+@media (max-width: 450px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
