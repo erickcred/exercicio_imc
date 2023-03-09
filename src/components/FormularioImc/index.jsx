@@ -32,7 +32,7 @@ const FormularioImc = () => {
                     </div>
                     <div>
                         <input className={styles.input} type="number" placeholder="Peso (ex.: 70.4)" 
-                            onMouseOut={({target}) => setPeso(target.value)} 
+                            onMouseOut={({target}) => setPeso(parseFloat(target.value))} 
                         />
                     </div>
                 </div>
